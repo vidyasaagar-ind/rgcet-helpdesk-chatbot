@@ -1,0 +1,14 @@
+{
+  "id": "src_form_medical_attendance",
+  "source_ref": "src_form_medical_attendance",
+  "source_url": "https://www.rgcet.edu.in/App_to_claim_medical_attendance.pdf",
+  "raw_local_path": "backend/data/raw/pdf/medical_attendance_claim.pdf",
+  "source_type": "pdf",
+  "title": "Application for Claim of Attendance on Medical Grounds",
+  "category": "fees_forms",
+  "department": "admin",
+  "cleaned_text": "RAJIV GANDHI COLLEGE OF ENGINEERING AND TECHNOLOGY \nKIRUMAMPAKKAM, PUDUCHERRY \n \nAPPLICATION FOR CLAIM OF ATTENDANCE ON MEDICAL GROUNDS \n \n Date of application: \nFrom \n \n \n \n \n \n \n \nTo, \nThe Principal, \nRajiv Gandhi College of Engineering and Technology \nPuducherry \n \nTHROUGH THE HEAD OF THE DEPARTMENT \n \nRespected Sir, \n \nI could not attend my regular classes from ______________ to _______________ (both \ndays inclusive) on account of the following illness :_____________________________ \n__________________________________________________________________. \n \nMedical Certificate dated _______________ issued by \nDr.___________________________________ as required by rules is herewith attached. \n \n \nYours faithfully, \n \n \n(Signature of Student) \n \n \n \n \n(Countersign of Parent/ Guardian) \n(P.T.O.) \n \n \n \n \n \n \n \n \n \n \n \n….2…. \nRules: \n \n1. Fully completed and signed application form should be submitted to the \noffice of the Principal through the Head of the Department concerned \nduring office hours on any working day within THREE DAYS of \nresuming attendance. \n \n2. An official receipt will be given by the office on submission of \napplication. The receipt should be preserved by the student. \n \n3. Medical Certificate without specifying the exact dates will not be accepted. \n \n4. If student is absent for more than three days, details of medical \nreport – pathology test, X-ray reports etc. should be submitted. \n \n5. Candidates who secure overall attendance greater than 60% and \nless than 75% alone will be eligible for condonation of \nattendance on medical grounds. \n \n6. Medical Certificate should be issued by a medical officer not below \n the rank of Assistant Director. \n \n*********************************",
+  "trust_priority": "priority_3",
+  "reviewed": true,
+  "notes": "PDF text extracted with rules and submission conditions."
+}

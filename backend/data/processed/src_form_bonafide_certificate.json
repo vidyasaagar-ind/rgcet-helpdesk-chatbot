@@ -1,0 +1,14 @@
+{
+  "id": "src_form_bonafide_certificate",
+  "source_ref": "src_form_bonafide_certificate",
+  "source_url": "https://www.rgcet.edu.in/Application%20for%20Bonafide%20Certificate.pdf",
+  "raw_local_path": "backend/data/raw/pdf/bonafide_certificate.pdf",
+  "source_type": "pdf",
+  "title": "Application for Bonafide Certificate",
+  "category": "fees_forms",
+  "department": "admin",
+  "cleaned_text": "Approved / NotApproved \n \nRajiv Gandhi College of Engineering and Technology \nKirumampakkam, Puducherry \n \nApplication for Bonafide Certificate \n Date: \nName of the Student \n(Capital letters) \n \nRegistration Number \nDegree B.TECH / M.TECH / MBA / MCA \nBranch CSE / IT / MECH / ECE / EEE / BME / MBA / MCA \nYear & Semester Y1/Y2/Y3/Y4 S1/S2/S3/S4/S5/S6/S7/S8 \nQuota CENTAC / MANAGEMENT \nPurpose of Applying \n(Passport/Educational Loan/Scholarship/ \nFees Structure/Others specify \n \n \nEnclose Supporting Documents: \n1. Aadhaar Xerox-1 \n2. Recent Passport Size Photo (Blazer coat with tie for Boys and Chudidar for Girls) - 2nos \n3. 10th& 12th Marksheet xerox copy-1set (Applicable only for passport) \n4. Birth Certificate Xerox Copy-1 (Applicable only for Passport) \nStudent Signature \n \nREMARKS OF THE HOD & SIGNATURE \nConduct and Character \nAttendance % as on date \nAcademic Performance \n \n \nFor Principal’s Office Use \n \n \n \nPRINCIPAL",
+  "trust_priority": "priority_3",
+  "reviewed": true,
+  "notes": "PDF text extracted with document checklist."
+}

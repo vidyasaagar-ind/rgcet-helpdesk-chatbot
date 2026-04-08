@@ -1,0 +1,14 @@
+{
+  "id": "src_contact_page",
+  "source_ref": "src_contact_page",
+  "source_url": "https://www.rgcet.edu.in/contact.php",
+  "raw_local_path": "backend/data/raw/website/contact.txt",
+  "source_type": "website",
+  "title": "Contact Page",
+  "category": "contact_info",
+  "department": "admin",
+  "cleaned_text": "Title: Contact Details\nSource URL: https://www.rgcet.edu.in/contact.php\n\nGeneral college contact:\n- Telephone: (0413) 2615 308, 309\n- Email: info@rgcetpdy.ac.in\n- Website: www.rgcet.edu.in\n- Address: Pondy - Cuddalore Main Road, Kirumampakkam, Pondicherry-607 403, India\n\nCENTAC Nodal Officer:\n- Mr. Arokiaraj R.\n- Asst. Professor / MATHS\n- Email: cno@rgcet.edu.in\n\nExam Nodal Officer:\n- Mr. SIVARAJA K.N\n- Section Officer / Examination wing\n- Mobile: (+91)99433 23301\n- Email: rgcetexam@yahoo.com\n- Email: examwing@rgcetpdy.ac.in",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "General contact, CENTAC nodal officer, and exam nodal officer extracted."
+}

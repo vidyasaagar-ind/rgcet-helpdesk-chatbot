@@ -1,0 +1,14 @@
+{
+  "id": "src_qualifying_exam_page",
+  "source_ref": "src_qualifying_exam_page",
+  "source_url": "https://www.rgcet.edu.in/qe.php",
+  "raw_local_path": "backend/data/raw/website/qualifying_exams_records.txt",
+  "source_type": "website",
+  "title": "Qualifying Examinations Record Page",
+  "category": "placement",
+  "department": "placement",
+  "cleaned_text": "Title: Qualifying Examinations Record Page\nSource URL: https://www.rgcet.edu.in/qe.php\n\nOfficial page summary:\n- Students qualifying in state, national, or international level examinations during the last five years\n- Examples listed on the page include IIT JAM, NET, SLET, GATE, GMAT, GPAT, CLAT, CAT, GRE, TOEFL, IELTS, Civil Services, and State Government examinations\n- Years shown on the page: 2018-19, 2019-20, 2020-21, 2021-22, 2022-23\n\nThe page provides download links for last five years student name lists and year-wise qualifying examination records.",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Official qualifying examinations page summarized conservatively."
+}

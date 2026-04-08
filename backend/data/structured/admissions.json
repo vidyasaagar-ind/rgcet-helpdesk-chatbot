@@ -1,0 +1,89 @@
+[
+  {
+    "id": "admissions_eligibility_official",
+    "source_ref": "src_admission_eligibility",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Eligibility and programme details extracted from the approved admission page.",
+    "office_name": "Admissions",
+    "admission_cycle": "2026-27",
+    "undergraduate_eligibility": "Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of Chemistry / Biotechnology / Biology, with at least 45 percent marks taken together; reserved category candidates require 40 percent.",
+    "lateral_entry_eligibility": "Diploma from an AICTE or DOTE approved institution with at least 50 percent marks, or B.Sc. degree from a recognized university with Mathematics at XII level and at least 50 percent marks; reserved category candidates require 45 percent. Additional conditions for B.Sc. stream students are listed on the official admission page.",
+    "mca_eligibility": "Recognized Bachelor's Degree of minimum 3 years duration with Mathematics at 10+2 level and at least 50 percent in the qualifying examination; reserved category candidates require 45 percent.",
+    "mba_eligibility": "Recognized Bachelor's Degree of minimum 3 years duration with at least 50 percent in the qualifying examination; reserved category candidates require 45 percent.",
+    "ug_programmes": [
+      "B.Tech Computer Science and Engineering (CSE)",
+      "B.Tech Information Technology (IT)",
+      "B.Tech Electronics and Communication Engineering (ECE)",
+      "B.Tech Bio-Medical Engineering (BME)",
+      "B.Tech Artificial Intelligence and Data Science (AI&DS)",
+      "B.Tech Artificial Intelligence and Machine Learning (AI&ML)"
+    ],
+    "pg_programmes": [
+      "M.Tech Computer Science and Engineering (CSE)",
+      "M.Tech Wireless Communication (WC)",
+      "MCA",
+      "MBA"
+    ],
+    "age_limit": "General age limit shown on the official page: 21 years for first year admission and 24 years for lateral entry as on 1st July of the academic year under consideration; SC/ST candidates have 3 years relaxation. MCA and MBA are listed with no age limit."
+  },
+  {
+    "id": "admissions_contact_official",
+    "source_ref": "src_admission_contact",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Direct admission contact shown on the approved admission contact page.",
+    "office_name": "Admissions",
+    "contact_person": "Dr. K. Ayyappan",
+    "designation": "Vice Principal",
+    "contact_numbers": "+91 93454 66411, +91 95007 72277",
+    "office_phone": "(0413) 2615 308, 309",
+    "email": "info@rgcetpdy.ac.in",
+    "office_location": "Pondy - Cuddalore Main Road, Kirumampakkam, Pondicherry-607 403, India"
+  },
+  {
+    "id": "admissions_location_support_official",
+    "source_ref": "src_admission_contact",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Campus-level admission office location support derived from the approved admission contact page. The exact room location is not separately published.",
+    "office_name": "Admission Office",
+    "contact_person": "Dr. K. Ayyappan",
+    "designation": "Vice Principal",
+    "office_phone": "(0413) 2615 308, 309",
+    "email": "info@rgcetpdy.ac.in",
+    "office_location": "Pondy - Cuddalore Main Road, Kirumampakkam, Pondicherry-607 403, India",
+    "enquiry_guidance": "For admission enquiry, the approved sources direct students to the RGCET campus address above. The exact room location is not separately published in the approved sources."
+  },
+  {
+    "id": "admissions_inquiry_form_official",
+    "source_ref": "src_admission_inquiry_form",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Official Google Form title verified from the approved link.",
+    "item_name": "Admission Inquiry Form",
+    "description": "Official Google Form for admission inquiry.",
+    "action_link": "https://docs.google.com/forms/d/1Xfc6VzBsJ7fwm6P7Sj_4hjxJzbLA7M_fP8yjYC5NFXI/viewform?edit_requested=true",
+    "action_type": "google_form"
+  },
+  {
+    "id": "admissions_support_summary_official",
+    "source_ref": "src_admission_contact",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Support-style summary derived from approved admission eligibility and contact sources.",
+    "office_name": "Admissions Support Summary",
+    "contact_person": "Dr. K. Ayyappan",
+    "designation": "Vice Principal",
+    "contact_numbers": "+91 93454 66411, +91 95007 72277",
+    "office_phone": "(0413) 2615 308, 309",
+    "email": "info@rgcetpdy.ac.in",
+    "office_location": "Pondy - Cuddalore Main Road, Kirumampakkam, Pondicherry-607 403, India",
+    "enquiry_guidance": "For admission enquiry, use the official contact details above. The exact room location is not separately published in the approved sources."
+  }
+]

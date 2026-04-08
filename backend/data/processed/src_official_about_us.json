@@ -1,0 +1,14 @@
+{
+  "id": "src_official_about_us",
+  "source_ref": "src_official_about_us",
+  "source_url": "https://www.rgcet.edu.in/pages-about-us.php",
+  "raw_local_path": "backend/data/raw/website/about_us.txt",
+  "source_type": "website",
+  "title": "About Us",
+  "category": "official_general",
+  "department": "general",
+  "cleaned_text": "Title: About Us\nSource URL: https://www.rgcet.edu.in/pages-about-us.php\n\nSri Balaji Educational and Charitable Public Trust is described as having been formed with the aim of promoting technical education for aspiring youth.\n\nNamed leadership shown on the page:\n- Dr. E. Vijayakrishna Rapaka, Principal\n- Shri. M. K. Rajagopalan, Chairman\n- Professor. Dr. K. Ayyappan, Vice-Principal\n\nInstitutions listed under Sri Balaji Educational and Charitable Public Trust:\n- Bharathiyar College of Engineering and Technology, Karaikal\n- Mahatma Gandhi Medical College and Research Institute, Puducherry\n- Sri Sathya Sai Medical College and Research Institute, Nellikuppam\n- Kasturba Gandhi Nursing College, Puducherry\n- Indira Gandhi Institute of Dental Sciences, Puducherry\n\nCampus location details on the page:\n- 30 Acres of land at Kirumambakkam\n- 13 Kms from Pondicherry towards Cuddalore\n- East Coast Road\n- About 2,25,000 Sq. ft. of construction",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Trust overview, named leadership, and campus location facts extracted."
+}

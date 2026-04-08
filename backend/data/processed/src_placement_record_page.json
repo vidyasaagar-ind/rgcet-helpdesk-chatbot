@@ -1,0 +1,14 @@
+{
+  "id": "src_placement_record_page",
+  "source_ref": "src_placement_record_page",
+  "source_url": "https://www.rgcet.edu.in/pr.php",
+  "raw_local_path": "backend/data/raw/website/placement_records.txt",
+  "source_type": "website",
+  "title": "Placement Record Page",
+  "category": "placement",
+  "department": "placement",
+  "cleaned_text": "Title: Placement Record Page\nSource URL: https://www.rgcet.edu.in/pr.php\n\nOfficial page summary:\n- Placement List Yearwise for last five years\n- Placement offer letters yearwise are linked on the page\n- Years shown on the page: 2018-19, 2019-20, 2020-21, 2021-22, 2022-23, 2023-24\n\nThe page provides download links for placed student name lists and placement offer letters by year.",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Official year-wise placement record page summarized conservatively."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "src_dept_cse_gallery",
+  "source_ref": "src_dept_cse_gallery",
+  "source_url": "https://rgcet.edu.in/cse_department/csegallery.php",
+  "raw_local_path": "backend/data/raw/website/department_cse_gallery.txt",
+  "source_type": "website",
+  "title": "Department of Computer Science and Engineering Gallery",
+  "category": "departments",
+  "department": "cse",
+  "cleaned_text": "Title: Department of Computer Science and Engineering Gallery\nSource URL: https://rgcet.edu.in/cse_department/csegallery.php\n\nThe approved department page is a gallery page.\n\nNotable gallery item shown on the page:\n- National Level Workshop on Cloud Computing and Networking with speaker Mr. Swaminathan Vasudevan from United States\n\nShared contact details shown in the page footer:\n- Phone: 0413 2615 308, 309\n- Email: Info@rgcet.edu.in\n- Address: Puducherry - 607 403\n\nNote:\n- The approved gallery page does not publish a confirmed HOD name in the extracted content.",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Gallery page only; no confirmed HOD details extracted."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "src_placement_contact",
+  "source_ref": "src_placement_contact",
+  "source_url": "https://www.rgcet.edu.in/placementcell_contact.php",
+  "raw_local_path": "backend/data/raw/website/placement_contact.txt",
+  "source_type": "website",
+  "title": "Placement Cell Contact",
+  "category": "placement",
+  "department": "placement",
+  "cleaned_text": "Title: Placement Cell Contact\nSource URL: https://www.rgcet.edu.in/placementcell_contact.php\n\nDepartment name shown on the page:\n- Department of Training and Placement\n\nPlacement team contact:\n- placementcell@rgcetpdy.ac.in\n\nGeneral contact repeated on the page:\n- Telephone: (0413) 2615 308, 309\n- Email: info@rgcetpdy.ac.in\n- Website: www.rgcet.edu.in\n- Address: Pondy - Cuddalore Main Road, Kirumampakkam, Pondicherry-607 403, India",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Placement contact email and general contact details extracted."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "src_official_home",
+  "source_ref": "src_official_home",
+  "source_url": "https://www.rgcet.edu.in/",
+  "raw_local_path": "backend/data/raw/website/home.txt",
+  "source_type": "website",
+  "title": "RGCET Home",
+  "category": "official_general",
+  "department": "general",
+  "cleaned_text": "Title: Welcome to RGCET\nSource URL: https://www.rgcet.edu.in/\n\nRajiv Gandhi College of Engineering and Technology is presented on the home page as an institution under Sri Balaji Educational and Charitable Public Trust.\n\nCampus location details on the home page:\n- Kirumambakkam\n- 13 Kms from Pondicherry towards Cuddalore\n- East Coast Road\n- 30 Acres of land\n- About 2,25,000 Sq. ft. of construction\n\nAdmission notice on the home page:\n- Admission Open 2026-27\n- UG programmes listed: B.Tech AI&DS, AI&ML, BME, CSE, ECE, IT\n- PG programmes listed: MCA, MBA, M.Tech WC, CSE",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Homepage overview and programme listing extracted from approved source."
+}

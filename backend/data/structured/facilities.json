@@ -1,0 +1,68 @@
+[
+  {
+    "id": "facility_students_grievance_cell",
+    "source_ref": "src_facilities_page",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Students grievance details extracted from the approved facilities page.",
+    "facility_name": "Students Grievance Cell",
+    "description": "The grievance cell looks into student grievances and the page says students may express grievances online through the grievance form mentioned there.",
+    "location": "Campus administration support"
+  },
+  {
+    "id": "facility_health_service",
+    "source_ref": "src_facilities_page",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Health service details extracted from the approved facilities page.",
+    "facility_name": "Health Service",
+    "description": "The college doctor is available on campus for consultation, regular health check-ups are conducted, and nearby hospital services are available at Mahatma Gandhi Medical College and Research Institute.",
+    "location": "Campus and nearby Mahatma Gandhi Medical College and Research Institute"
+  },
+  {
+    "id": "facility_transport",
+    "source_ref": "src_facilities_page",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Transport details extracted from the approved facilities page.",
+    "facility_name": "Transport",
+    "description": "The college has a fleet of 18 buses for students and staff from various parts of the city and neighbouring areas.",
+    "location": "College transport network"
+  },
+  {
+    "id": "facility_internet_service",
+    "source_ref": "src_facilities_page",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Internet service details extracted from the approved facilities page.",
+    "facility_name": "Internet Service",
+    "description": "The college is a member of the National Knowledge Network with 40 Mbps bandwidth and also has a 100 Mbps BSNL internet connection monitored through a firewall.",
+    "location": "Campus network backbone"
+  },
+  {
+    "id": "facility_wifi_connectivity",
+    "source_ref": "src_facilities_page",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "WiFi details extracted from the approved facilities page.",
+    "facility_name": "WiFi Connectivity",
+    "description": "Access points have been deployed in a few blocks in the campus so internet can be accessed within the college premises.",
+    "location": "Selected campus blocks"
+  },
+  {
+    "id": "facility_hostel",
+    "source_ref": "src_facilities_page",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Only the limited hostel description explicitly present on the approved facilities page is included here.",
+    "facility_name": "Hostel Facilities",
+    "description": "The facilities page states that hostel facilities are available for boys and girls, vegetarian food is provided, and a separate hostel building with One Lakh Sq. ft. is being constructed.",
+    "location": "Campus hostel facilities"
+  }
+]

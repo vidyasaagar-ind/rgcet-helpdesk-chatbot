@@ -1,0 +1,14 @@
+{
+  "id": "src_dept_ece_gallery",
+  "source_ref": "src_dept_ece_gallery",
+  "source_url": "https://rgcet.edu.in/ece_department/gallery.php",
+  "raw_local_path": "backend/data/raw/website/department_ece_gallery.txt",
+  "source_type": "website",
+  "title": "Department of Electronics and Communication Engineering Gallery",
+  "category": "departments",
+  "department": "ece",
+  "cleaned_text": "Title: Department of Electronics and Communication Engineering Gallery\nSource URL: https://rgcet.edu.in/ece_department/gallery.php\n\nThe approved department page is a gallery page.\n\nNotable gallery items shown on the page:\n- Pondicherry University 29th Annual Convocation Gold Medalists were honoured by the Principal\n- RGCET Robotics Club students participated in robotics events conducted by PTU\n- Prize winners of a technical symposium at Christ College of Engineering and Technology were recognized\n\nShared contact details shown in the page footer:\n- Phone: 0413 2615 308, 309\n- Email: Info@rgcet.edu.in\n- Address: Puducherry - 607 403\n\nNote:\n- The approved gallery page does not publish a confirmed HOD name in the extracted content.",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Gallery page only; no confirmed HOD details extracted."
+}

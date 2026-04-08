@@ -1,0 +1,112 @@
+[
+  {
+    "id": "general_institution_overview_official",
+    "source_ref": "src_official_home",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Institution overview extracted from the approved home page.",
+    "topic": "Institution Overview",
+    "content": "Rajiv Gandhi College of Engineering and Technology is presented on the official website as an institution under Sri Balaji Educational and Charitable Public Trust. The campus is at Kirumambakkam, 13 Kms from Pondicherry towards Cuddalore on East Coast Road, on 30 acres of land with about 2,25,000 Sq. ft. of construction."
+  },
+  {
+    "id": "general_leadership_official",
+    "source_ref": "src_official_about_us",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Named leadership extracted from the approved About Us page.",
+    "topic": "Trust and Leadership",
+    "content": "The About Us page names Dr. E. Vijayakrishna Rapaka as Principal, Shri. M. K. Rajagopalan as Chairman, and Professor. Dr. K. Ayyappan as Vice-Principal."
+  },
+  {
+    "id": "general_principal_support_official",
+    "source_ref": "src_official_about_us",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Principal support summary derived from the approved About Us page and official general contact record.",
+    "topic": "Principal Support",
+    "content": "The approved About Us page lists Dr. E. Vijayakrishna Rapaka as the Principal of RGCET. A direct principal email or phone is not separately published in the current approved sources, so the official general college contact for follow-up is info@rgcetpdy.ac.in and (0413) 2615 308, 309."
+  },
+  {
+    "id": "general_programme_listing_official",
+    "source_ref": "src_official_home",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Programme listing extracted from the approved home page.",
+    "topic": "Programmes Listed on Home Page",
+    "content": "The home page lists UG B.Tech programmes in AI&DS, AI&ML, BME, CSE, ECE, and IT, and PG programmes in MCA, MBA, and M.Tech in WC and CSE."
+  },
+  {
+    "id": "general_college_location_support_official",
+    "source_ref": "src_official_home",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "College location support summary derived from the approved home page and contact page.",
+    "topic": "College Location Support",
+    "content": "RGCET is located at Pondy - Cuddalore Main Road, Kirumampakkam, Pondicherry-607 403, India. The home page also describes the campus as being about 13 Kms from Pondicherry towards Cuddalore on East Coast Road."
+  },
+  {
+    "id": "general_admission_office_location_support_official",
+    "source_ref": "src_admission_contact",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Admission office location support summary derived from the approved admission contact page.",
+    "topic": "Admission Office Location Support",
+    "content": "For admission enquiry, the approved admission contact page points students to the RGCET campus at Pondy - Cuddalore Main Road, Kirumampakkam, Pondicherry-607 403, India. The exact room location of the admission office is not separately published in the current approved sources."
+  },
+  {
+    "id": "general_department_summary_structured",
+    "source_ref": "structured_departments_dataset",
+    "trust_priority": "priority_3",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Derived from the current structured department records to improve coverage for department count and department list queries.",
+    "topic": "Department and Programme Coverage Summary",
+    "content": "The current structured dataset covers 8 department or programme entries: CSE, ECE, IT, BME, AI&DS, AI&ML, MBA, and MCA. Some department profile fields are still placeholders and need confirmation."
+  },
+  {
+    "id": "general_programme_support_structured",
+    "source_ref": "structured_departments_dataset",
+    "trust_priority": "priority_3",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Derived from the current structured department records and official programme listing to improve broad programme queries.",
+    "topic": "Programme List Support",
+    "content": "The structured records currently cover Computer Science and Engineering, Electronics and Communication Engineering, Information Technology, Biomedical Engineering, Artificial Intelligence and Data Science, Artificial Intelligence and Machine Learning, MBA, and MCA."
+  },
+  {
+    "id": "general_hod_support_official",
+    "source_ref": "src_contact_page",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Support-style record for HOD queries. Approved department gallery pages do not publish confirmed HOD names in the current sources.",
+    "topic": "HOD Information Support",
+    "content": "The currently approved department pages do not publish confirmed HOD names for the departments covered in this chatbot. For the latest department leadership details, please contact the college office at info@rgcetpdy.ac.in or (0413) 2615 308, 309."
+  },
+  {
+    "id": "general_office_timings_support_official",
+    "source_ref": "src_contact_page",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Support-style record for office timing queries. Official office timings are not separately published in the currently approved sources.",
+    "topic": "Office Timings Support",
+    "content": "Official office timings are not separately published in the current approved sources used by this chatbot. Please contact the college office directly at info@rgcetpdy.ac.in or (0413) 2615 308, 309 for confirmation."
+  },
+  {
+    "id": "general_department_count_support_official",
+    "source_ref": "structured_departments_dataset",
+    "trust_priority": "priority_3",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Computed from the current structured department/programme records to answer department count queries without placeholders.",
+    "topic": "Department Count Support",
+    "content": "The current structured dataset used by the chatbot covers 8 department or programme entries: CSE, ECE, IT, BME, AI&DS, AI&ML, MBA, and MCA."
+  }
+]

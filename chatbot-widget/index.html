@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGCET Help Desk - Widget Shell</title>
+    <!-- Include the widget CSS -->
+    <link rel="stylesheet" href="widget.css">
+    <style>
+        /* CSS for the fake landing page background */
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f8fafc;
+            color: #334155;
+            min-height: 100vh;
+        }
+        .demo-page-content {
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .demo-page-content h1 {
+            color: #0f172a;
+        }
+        .demo-page-content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .demo-note {
+            background: #e2e8f0;
+            padding: 16px;
+            border-radius: 8px;
+            border-left: 4px solid #3b82f6;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Demo content (Not part of widget) -->
+    <div class="demo-page-content">
+        <h1>RGCET Widget Demo</h1>
+        <p>This is a local shell to preview the Help Desk Widget.</p>
+        <div class="demo-note">
+            The widget UI is packaged in <code>widget.css</code> and <code>widget.js</code>. 
+            The HTML below belongs to the widget and can be injected or included on any college website page.
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec efficitur dolor. Praesent volutpat sit amet magna sit amet feugiat. Nunc tristique finibus tincidunt.</p>
+        <p>Curabitur euismod nulla in viverra dignissim. Suspendisse pulvinar pretium nunc vel convallis. Sed accumsan elit ut ex semper tincidunt. Maecenas iaculis elit a libero laoreet, at aliquet mauris venenatis.</p>
+    </div>
+
+    <!-- BEGIN RGCET CHATBOT WIDGET -->
+    <div id="rgcet-widget-root">
+        <!-- Launcher Button -->
+        <button id="rgcet-launcher" class="rgcet-launcher" aria-label="Open RGCET Help Desk">
+            <div class="rgcet-launcher-text">
+                <span class="rgcet-launcher-line1">RGCET</span>
+                <span class="rgcet-launcher-line2">AI ASSISTANT</span>
+            </div>
+            <svg class="rgcet-launcher-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+        </button>
+
+        <!-- Widget Panel -->
+        <div id="rgcet-panel" class="rgcet-panel rgcet-hidden">
+            <!-- Header -->
+            <div class="rgcet-header">
+                <div class="rgcet-header-info">
+                    <h2 class="rgcet-header-title">RGCET Help Desk</h2>
+                    <p class="rgcet-header-subtitle">Ask about admissions, departments, office timings, contacts, and official college guidance.</p>
+                </div>
+                <button id="rgcet-close-btn" class="rgcet-action-btn" aria-label="Minimize or close chatbot">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Message Area -->
+            <div id="rgcet-messages" class="rgcet-messages">
+                
+                <!-- Welcome Card -->
+                <div class="rgcet-welcome-card">
+                    <div class="rgcet-welcome-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                        </svg>
+                    </div>
+                    <h3 class="rgcet-welcome-title">RGCET Help Desk</h3>
+                    <p class="rgcet-welcome-desc">Get quick help with admissions, departments, office contacts, timings, and official college guidance.</p>
+                    
+                    <!-- FAQ Grid -->
+                    <div class="rgcet-faq-grid">
+                        <button class="rgcet-faq-item">
+                            <span class="rgcet-faq-icon">🕒</span>
+                            <span class="rgcet-faq-text">What are the office timings?</span>
+                        </button>
+                        <button class="rgcet-faq-item">
+                            <span class="rgcet-faq-icon">📞</span>
+                            <span class="rgcet-faq-text">How can I contact the admission office?</span>
+                        </button>
+                        <button class="rgcet-faq-item">
+                            <span class="rgcet-faq-icon">👤</span>
+                            <span class="rgcet-faq-text">Who is the HOD of CSE?</span>
+                        </button>
+                        <button class="rgcet-faq-item">
+                            <span class="rgcet-faq-icon">📄</span>
+                            <span class="rgcet-faq-text">Where can I get the fee payment challan?</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Messages will be appended here JS -->
+            </div>
+
+            <!-- Input Area -->
+            <div class="rgcet-input-area">
+                <input type="text" id="rgcet-input" placeholder="Type your message..." autocomplete="off">
+                <div class="rgcet-input-controls">
+                    <button class="rgcet-control-btn" id="rgcet-mic-btn" aria-label="Voice input">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                            <line x1="12" y1="19" x2="12" y2="23"></line>
+                            <line x1="8" y1="23" x2="16" y2="23"></line>
+                        </svg>
+                    </button>
+                    <button class="rgcet-control-btn rgcet-send-btn" id="rgcet-send-btn" aria-label="Send message">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END RGCET CHATBOT WIDGET -->
+
+    <!-- Include the widget JS -->
+    <script src="widget.js"></script>
+</body>
+</html>

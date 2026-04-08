@@ -1,0 +1,72 @@
+[
+  {
+    "id": "fee_payment_challan_official",
+    "source_ref": "src_fee_payment_challan",
+    "trust_priority": "priority_3",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Official fee payment challan PDF extracted from the approved link.",
+    "item_name": "Fee Payment Challan",
+    "description": "Official bank challan PDF for fee payment.",
+    "official_download_link": "https://www.rgcet.edu.in/RGCET_%20Challan_format.pdf",
+    "bank_name": "Indian Bank",
+    "account_number": "513230986",
+    "ifsc_code": "IDIB000P042",
+    "fee_payment_modes": "Cash, DD, UPI"
+  },
+  {
+    "id": "no_dues_exam_hall_ticket_official",
+    "source_ref": "src_form_no_dues_exam_hall_ticket",
+    "trust_priority": "priority_3",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Official PDF extracted from the approved link.",
+    "item_name": "No Dues Exam Hall Ticket",
+    "description": "Official examination hall ticket form published on the college website.",
+    "official_download_link": "https://www.rgcet.edu.in/No_dues_Exam_Hall_Ticket.pdf",
+    "usage_note": "The PDF states that the temporary hall ticket is valid for model examination only and should be retained carefully.",
+    "required_clearances": "Accounts, Hostel, Library, Sports, RECOFES, Placement Officer, Scholarship/Record Section, and Examination Wing are listed in the form."
+  },
+  {
+    "id": "medical_attendance_form_official",
+    "source_ref": "src_form_medical_attendance",
+    "trust_priority": "priority_3",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Official PDF extracted from the approved link.",
+    "item_name": "Application for Claim of Attendance on Medical Grounds",
+    "description": "Official form to claim attendance on medical grounds.",
+    "official_download_link": "https://www.rgcet.edu.in/App_to_claim_medical_attendance.pdf",
+    "submission_rule": "The completed and signed application should be submitted to the office of the Principal through the Head of the Department within three days of resuming attendance.",
+    "condonation_rule": "The page states that students with overall attendance greater than 60 percent and less than 75 percent alone are eligible for condonation of attendance on medical grounds."
+  },
+  {
+    "id": "bonafide_certificate_form_official",
+    "source_ref": "src_form_bonafide_certificate",
+    "trust_priority": "priority_3",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Official PDF extracted from the approved link.",
+    "item_name": "Application for Bonafide Certificate",
+    "description": "Official bonafide certificate application form.",
+    "official_download_link": "https://www.rgcet.edu.in/Application%20for%20Bonafide%20Certificate.pdf",
+    "supporting_documents": [
+      "Aadhaar Xerox - 1",
+      "Recent passport size photo - 2 nos",
+      "10th and 12th marksheet Xerox copy - 1 set (applicable only for passport)",
+      "Birth certificate Xerox copy - 1 (applicable only for passport)"
+    ]
+  },
+  {
+    "id": "dbrait_transfer_form_official",
+    "source_ref": "src_form_dbrait_transfer",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Official Google Form purpose verified from the approved link.",
+    "item_name": "DBRAIT Transfer Application",
+    "description": "Official Google Form for provisional admission transfer applications from DBRAIT to RGCET.",
+    "official_form_link": "http://docs.google.com/forms/d/e/1FAIpQLScqCk6KDPZtSmtAKZOHnXtA4FkJXbG84i5fzswBbzb99bIqLQ/viewform",
+    "transfer_note": "The form states that transfer admission is subject to Pondicherry University eligibility conditions and approval."
+  }
+]

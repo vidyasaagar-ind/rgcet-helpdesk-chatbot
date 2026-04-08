@@ -1,0 +1,14 @@
+{
+  "id": "src_form_dbrait_transfer",
+  "source_ref": "src_form_dbrait_transfer",
+  "source_url": "http://docs.google.com/forms/d/e/1FAIpQLScqCk6KDPZtSmtAKZOHnXtA4FkJXbG84i5fzswBbzb99bIqLQ/viewform",
+  "raw_local_path": "backend/data/raw/website/dbrait_transfer_form.txt",
+  "source_type": "form",
+  "title": "Application for college transfer from DBRAIT for Provisional admission at RGCET",
+  "category": "fees_forms",
+  "department": "admissions",
+  "cleaned_text": "Title: Application for college transfer from DBRAIT for Provisional admission at RGCET\nSource URL: http://docs.google.com/forms/d/e/1FAIpQLScqCk6KDPZtSmtAKZOHnXtA4FkJXbG84i5fzswBbzb99bIqLQ/viewform\n\nOfficial Google Form purpose:\n- Application for college transfer from DBRAIT for Provisional admission at RGCET\n\nNotes shown on the form:\n- Admission through transfer is subject to fulfillment of eligible conditions of Pondicherry University\n- After completion of official formalities and approval for transfer from Pondicherry University, admission will be confirmed\n- The student can attend classes in person by paying the necessary tuition fees",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Google Form purpose and transfer notes captured."
+}

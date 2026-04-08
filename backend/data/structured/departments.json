@@ -1,0 +1,117 @@
+[
+  {
+    "id": "dept_cse_gallery_official",
+    "source_ref": "src_dept_cse_gallery",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Approved source is a gallery page; it does not publish a confirmed HOD name or a full department profile in the captured content.",
+    "department_code": "CSE",
+    "department_name": "Computer Science and Engineering",
+    "page_type": "gallery_page",
+    "official_page_title": "Department of Computer Science and Engineering Gallery",
+    "official_page_url": "https://rgcet.edu.in/cse_department/csegallery.php",
+    "notable_gallery_items": [
+      "National Level Workshop on Cloud Computing and Networking"
+    ]
+  },
+  {
+    "id": "dept_ece_gallery_official",
+    "source_ref": "src_dept_ece_gallery",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Approved source is a gallery page; it does not publish a confirmed HOD name or a full department profile in the captured content.",
+    "department_code": "ECE",
+    "department_name": "Electronics and Communication Engineering",
+    "page_type": "gallery_page",
+    "official_page_title": "Department of Electronics and Communication Engineering Gallery",
+    "official_page_url": "https://rgcet.edu.in/ece_department/gallery.php",
+    "notable_gallery_items": [
+      "Pondicherry University 29th Annual Convocation Gold Medalists honored by the Principal",
+      "RGCET Robotics Club participation in PTU events"
+    ]
+  },
+  {
+    "id": "dept_it_gallery_official",
+    "source_ref": "src_dept_it_gallery",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Approved source is a gallery page; it does not publish a confirmed HOD name or a full department profile in the captured content.",
+    "department_code": "IT",
+    "department_name": "Information Technology",
+    "page_type": "gallery_page",
+    "official_page_title": "Department of Information Technology Gallery",
+    "official_page_url": "https://rgcet.edu.in/it_department/gallery.php",
+    "notable_gallery_items": [
+      "Industrial visit at Chips Soft, Cochin, Kerala",
+      "Department symposium ZARIUS 2020"
+    ]
+  },
+  {
+    "id": "dept_bme_gallery_official",
+    "source_ref": "src_dept_bme_gallery",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-06",
+    "notes": "Approved source is a gallery page; it does not publish a confirmed HOD name or a full department profile in the captured content.",
+    "department_code": "BME",
+    "department_name": "Biomedical Engineering",
+    "page_type": "gallery_page",
+    "official_page_title": "Department of Biomedical Engineering Gallery",
+    "official_page_url": "https://rgcet.edu.in/bme_department/bmegallery.php",
+    "notable_gallery_items": [
+      "Workshop on Medical Equipment Management",
+      "In-Plant Training at Mahatma Gandhi Medical College and Research Institute"
+    ]
+  },
+  {
+    "id": "dept_aids_programme_official",
+    "source_ref": "src_admission_eligibility",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Programme listed on the approved admission page. Detailed department profile is not published in the current approved sources.",
+    "department_code": "AI&DS",
+    "department_name": "Artificial Intelligence and Data Science",
+    "programme_type": "UG Programme",
+    "profile_status": "programme_listed_profile_not_published"
+  },
+  {
+    "id": "dept_aiml_programme_official",
+    "source_ref": "src_admission_eligibility",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Programme listed on the approved admission page. Detailed department profile is not published in the current approved sources.",
+    "department_code": "AI&ML",
+    "department_name": "Artificial Intelligence and Machine Learning",
+    "programme_type": "UG Programme",
+    "profile_status": "programme_listed_profile_not_published"
+  },
+  {
+    "id": "dept_mba_programme_official",
+    "source_ref": "src_admission_eligibility",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Programme listed on the approved admission page. Detailed programme profile is not published in the current approved sources.",
+    "department_code": "MBA",
+    "department_name": "Master of Business Administration",
+    "programme_type": "PG Programme",
+    "profile_status": "programme_listed_profile_not_published"
+  },
+  {
+    "id": "dept_mca_programme_official",
+    "source_ref": "src_admission_eligibility",
+    "trust_priority": "priority_2",
+    "reviewed": true,
+    "last_updated": "2026-04-07",
+    "notes": "Programme listed on the approved admission page. Detailed programme profile is not published in the current approved sources.",
+    "department_code": "MCA",
+    "department_name": "Master of Computer Applications",
+    "programme_type": "PG Programme",
+    "profile_status": "programme_listed_profile_not_published"
+  }
+]

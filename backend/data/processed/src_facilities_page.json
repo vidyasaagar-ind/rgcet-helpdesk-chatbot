@@ -1,0 +1,14 @@
+{
+  "id": "src_facilities_page",
+  "source_ref": "src_facilities_page",
+  "source_url": "https://www.rgcet.edu.in/pages-facilities.php",
+  "raw_local_path": "backend/data/raw/website/facilities.txt",
+  "source_type": "website",
+  "title": "Facilities For Students",
+  "category": "facilities",
+  "department": "general",
+  "cleaned_text": "Title: Facilities For Students\nSource URL: https://www.rgcet.edu.in/pages-facilities.php\n\nStudents Grievance Cell:\n- The grievance cell looks into student grievances\n- Students may also express grievances online through the grievance form mentioned on the page\n\nHealth Service:\n- The college doctor will be available in the college campus for consultation\n- Students can seek advice from the Medical Officer any time\n- Regular health check-ups will be conducted for students\n- Students can consult the college doctor even after college hours at his chamber\n- Hospital services are available at Mahatma Gandhi Medical College and Research Institute nearby the campus\n\nTransport:\n- The college has a fleet of 18 buses\n- Buses transport students and staff from various parts of the city and neighbouring areas to the college and back home\n- College bus facility is available to every student\n- The facility is extended for special coaching classes, placements and training, and campus drive occasions\n\nInternet Service:\n- Member of the National Knowledge Network (NKN)\n- NKN bandwidth: 40 Mbps\n- Additional BSNL internet connection: 100 Mbps\n- Network traffic is monitored and controlled through a firewall\n- A fiber-optic backbone has been laid to provide connectivity to various parts of the campus\n\nWiFi Connectivity:\n- Access points have been deployed in a few blocks in the campus\n\nHostel Facilities:\n- The institution provides hostel facilities for boys and girls\n- Vegetarian food is provided\n- Lunch is provided inside the campus for all students\n- A separate hostel building with One Lakh Sq. ft. is described as being constructed and ready for occupation in the near future",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Facilities sections extracted from approved page."
+}

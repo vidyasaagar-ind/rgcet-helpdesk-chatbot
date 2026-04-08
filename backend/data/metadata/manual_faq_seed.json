@@ -1,0 +1,57 @@
+[
+  {
+    "id": "faq_official_001",
+    "question": "How can I contact the admission office?",
+    "answer": "Admission contact listed on the official page: Dr. K. Ayyappan, Vice Principal. Contact numbers: +91 93454 66411 and +91 95007 72277. Office phone: (0413) 2615 308, 309. Email: info@rgcetpdy.ac.in.",
+    "category": "admissions",
+    "department": "admin",
+    "trust_priority": "priority_1",
+    "status": "approved",
+    "reviewed": true,
+    "notes": "Answer derived only from the approved admission contact page."
+  },
+  {
+    "id": "faq_official_002",
+    "question": "Where can I get the fee payment challan?",
+    "answer": "Use the official fee payment challan download link: https://www.rgcet.edu.in/RGCET_%20Challan_format.pdf",
+    "category": "fees_forms",
+    "department": "accounts",
+    "trust_priority": "priority_1",
+    "status": "approved",
+    "reviewed": true,
+    "notes": "Answer derived only from the approved challan PDF link."
+  },
+  {
+    "id": "faq_official_003",
+    "question": "What forms can I download from the college website?",
+    "answer": "Approved downloadable or official form links currently captured in the knowledge base: Fee Payment Challan, No Dues Exam Hall Ticket, Application for Claim of Attendance on Medical Grounds, Application for Bonafide Certificate, DBRAIT Transfer Application, and the Admission Inquiry Form.",
+    "category": "fees_forms",
+    "department": "admin",
+    "trust_priority": "priority_1",
+    "status": "approved",
+    "reviewed": true,
+    "notes": "Answer derived only from the approved form and PDF links."
+  },
+  {
+    "id": "faq_official_004",
+    "question": "Tell me about the placement cell.",
+    "answer": "The Centre for Training, Placement, and Corporate Relations (CTPCR) organizes training programmes, campus placements, career counseling, aptitude and interview preparation, internships, and industry collaboration. Placement contact email: placementcell@rgcetpdy.ac.in.",
+    "category": "placement",
+    "department": "placement",
+    "trust_priority": "priority_1",
+    "status": "approved",
+    "reviewed": true,
+    "notes": "Answer derived only from the approved placement about and contact pages."
+  },
+  {
+    "id": "faq_official_005",
+    "question": "What bus routes are available?",
+    "answer": "RGCET publishes the official bus route chart here: https://www.rgcet.edu.in/Bus%20Routes.jpg . The exact route-stop text still needs manual review from the official image.",
+    "category": "bus_routes",
+    "department": "transport",
+    "trust_priority": "priority_1",
+    "status": "approved",
+    "reviewed": true,
+    "notes": "Answer derived only from the approved bus route image link."
+  }
+]

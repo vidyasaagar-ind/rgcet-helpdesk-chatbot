@@ -1,0 +1,9 @@
+Title: Higher Studies Record Page
+Source URL: https://www.rgcet.edu.in/hs.php
+
+Official page summary:
+- Higher studies list yearwise for last five years
+- Higher studies certificate yearwise links are shown on the page
+- Years shown on the page: 2018-19, 2019-20, 2020-21, 2021-22, 2022-23, 2023-24
+
+The page provides download links for higher studies records by year.

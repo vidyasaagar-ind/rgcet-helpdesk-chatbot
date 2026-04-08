@@ -1,0 +1,14 @@
+{
+  "id": "src_placement_about",
+  "source_ref": "src_placement_about",
+  "source_url": "https://www.rgcet.edu.in/placementcell_about.php",
+  "raw_local_path": "backend/data/raw/website/placement_about.txt",
+  "source_type": "website",
+  "title": "Placement Cell About",
+  "category": "placement",
+  "department": "placement",
+  "cleaned_text": "Title: Centre for Training Placement and Corporate Relations\nSource URL: https://www.rgcet.edu.in/placementcell_about.php\n\nVision:\n- To empower students with industry-relevant skills, professional competence, and ethical values through comprehensive training and placement opportunities, fostering global career success and contributing to societal development\n\nMission points on the page:\n- Build strong industry-academic collaborations for placement and internship opportunities\n- Provide personalized career counseling, soft skills training, and technical skill development programmes\n- Nurture leadership, teamwork, and problem-solving abilities\n- Promote lifelong learning, adaptability, and innovation\n- Ensure equal placement opportunities while upholding ethical and professional standards\n\nAbout the Centre for Training, Placement, and Corporate Relations (CTPCR):\n- Serves as a bridge between academia and industry\n- Organizes training programmes such as workshops, seminars, and certification courses\n- Facilitates campus placements\n- Supports industry collaboration, internships, and live projects\n- Provides career counseling\n- Organizes aptitude and interview preparation\n- Promotes higher education guidance\n- Supports entrepreneurship\n- Encourages alumni engagement\n- Tracks industry trends\n- Conducts corporate outreach\n\nNotable recruiters listed on the page:\n- TCS\n- CTS\n- Capgemini\n- Accenture\n- Société Générale\n- HCL\n- Wipro\n- Zifo R&D\n- Tata Elxsi\n- ATOS\n- Hexaware\n- Renault Nissan Technology and Business Solutions\n- KAAR Technologies\n- Deloitte\n- Infosys",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "CTPCR vision, mission, functions, and notable recruiters extracted."
+}

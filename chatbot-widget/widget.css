@@ -1,0 +1,512 @@
+/* RGCET Help Desk Widget CSS - Premium Professional Styling */
+
+:root {
+    /* Color Palette */
+    --rgcet-primary: #0a66c2;
+    --rgcet-primary-hover: #004182;
+    --rgcet-text-dark: #191919;
+    --rgcet-text-regular: #333333;
+    --rgcet-text-light: #5c5c5c;
+    --rgcet-bg-pure-white: #ffffff;
+    --rgcet-bg-neutral: #f9fafb; /* Soft gray for bot messages and input inset */
+    --rgcet-bg-soft-blue: #eef3f8; /* Very light accent */
+    --rgcet-border-light: #eef0f2;
+    --rgcet-border-medium: #e5e7eb;
+    
+    /* Shadows - Refined Hierarchy */
+    --rgcet-shadow-floating: 0 8px 30px rgba(0, 0, 0, 0.08); /* Widget panel drop shadow */
+    --rgcet-shadow-elevation-1: 0 2px 8px rgba(0, 0, 0, 0.04); /* Base cards */
+    --rgcet-shadow-elevation-2: 0 6px 16px rgba(0, 0, 0, 0.08); /* Card hover */
+    --rgcet-shadow-elevation-3: 0 4px 16px rgba(0, 0, 0, 0.04); /* Welcome Card */
+    --rgcet-shadow-btn: 0 2px 6px rgba(0, 0, 0, 0.06); /* Buttons */
+    
+    /* Border Radii */
+    --rgcet-radius-lg: 16px;
+    --rgcet-radius-md: 12px;
+    --rgcet-radius-sm: 8px;
+    --rgcet-radius-pill: 24px;
+    
+    --rgcet-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --rgcet-z-index: 999999;
+}
+
+#rgcet-widget-root {
+    font-family: var(--rgcet-font-family);
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#rgcet-widget-root *, #rgcet-widget-root *::before, #rgcet-widget-root *::after {
+    box-sizing: inherit;
+}
+
+/* Launcher Button */
+.rgcet-launcher {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background-color: var(--rgcet-primary);
+    color: #fff;
+    border: none;
+    border-radius: var(--rgcet-radius-lg);
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(10, 102, 194, 0.3); /* slightly tinted shadow */
+    z-index: var(--rgcet-z-index);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transform-origin: bottom right;
+}
+
+.rgcet-launcher:hover {
+    background-color: var(--rgcet-primary-hover);
+    box-shadow: 0 6px 20px rgba(10, 102, 194, 0.4);
+    transform: translateY(-2px);
+}
+
+.rgcet-launcher.rgcet-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8) translateY(20px);
+}
+
+.rgcet-launcher-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.rgcet-launcher-line1 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.rgcet-launcher-line2 {
+    font-size: 11px;
+    font-weight: 500;
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+}
+
+.rgcet-launcher-icon {
+    flex-shrink: 0;
+}
+
+/* Widget Panel */
+.rgcet-panel {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 380px;
+    height: 620px;
+    max-height: calc(100vh - 48px);
+    background-color: var(--rgcet-bg-pure-white);
+    border-radius: var(--rgcet-radius-lg);
+    box-shadow: var(--rgcet-shadow-floating);
+    display: flex;
+    flex-direction: column;
+    z-index: calc(var(--rgcet-z-index) + 1);
+    overflow: hidden;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.3s ease;
+    transform-origin: bottom right;
+    border: 1px solid rgba(0, 0, 0, 0.05); /* very subtle edge definition */
+}
+
+.rgcet-panel.rgcet-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.9) translateY(20px);
+}
+
+/* Header */
+.rgcet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px 24px 20px 24px;
+    background-color: var(--rgcet-bg-pure-white);
+    flex-shrink: 0;
+    position: relative;
+}
+
+.rgcet-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+    right: 24px;
+    height: 1px;
+    background-color: var(--rgcet-border-light);
+}
+
+.rgcet-header-info {
+    flex-grow: 1;
+    padding-right: 16px;
+}
+
+.rgcet-header-title {
+    margin: 0 0 6px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--rgcet-text-dark);
+    letter-spacing: -0.2px;
+}
+
+.rgcet-header-subtitle {
+    margin: 0;
+    font-size: 13px;
+    color: var(--rgcet-text-light);
+    line-height: 1.5;
+}
+
+.rgcet-action-btn {
+    background: transparent;
+    border: none;
+    color: var(--rgcet-text-light);
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s, color 0.2s;
+    flex-shrink: 0;
+    margin-top: -4px;
+    margin-right: -4px;
+}
+
+.rgcet-action-btn:hover {
+    background-color: var(--rgcet-bg-neutral);
+    color: var(--rgcet-text-dark);
+}
+
+/* Message Area */
+.rgcet-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px 24px;
+    background-color: var(--rgcet-bg-pure-white); /* Pure white to remove flatness */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    scroll-behavior: smooth;
+}
+
+/* Scrollbar styling */
+.rgcet-messages::-webkit-scrollbar {
+    width: 6px;
+}
+.rgcet-messages::-webkit-scrollbar-track {
+    background: transparent;
+}
+.rgcet-messages::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.rgcet-messages::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Welcome Card */
+.rgcet-welcome-card {
+    background-color: var(--rgcet-bg-pure-white);
+    border-radius: var(--rgcet-radius-md);
+    padding: 24px 20px;
+    text-align: center;
+    box-shadow: var(--rgcet-shadow-elevation-3);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+
+.rgcet-welcome-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: var(--rgcet-bg-soft-blue);
+    color: var(--rgcet-primary);
+    border-radius: 50%;
+    margin: 0 auto 16px auto;
+}
+
+.rgcet-welcome-title {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--rgcet-text-dark);
+}
+
+.rgcet-welcome-desc {
+    margin: 0 0 24px 0;
+    font-size: 13px;
+    color: var(--rgcet-text-light);
+    line-height: 1.6;
+}
+
+/* FAQ Grid */
+.rgcet-faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: left;
+}
+
+.rgcet-faq-item {
+    background-color: var(--rgcet-bg-pure-white);
+    border: 1px solid var(--rgcet-border-light);
+    border-radius: var(--rgcet-radius-md);
+    padding: 12px 14px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    transition: transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.2s ease, border-color 0.2s ease;
+    text-align: left;
+    font-size: 12.5px;
+    color: var(--rgcet-text-regular);
+    font-weight: 500;
+    box-shadow: var(--rgcet-shadow-elevation-1);
+    font-family: inherit;
+}
+
+.rgcet-faq-item:hover {
+    border-color: var(--rgcet-primary);
+    box-shadow: var(--rgcet-shadow-elevation-2);
+    transform: translateY(-2px);
+    color: var(--rgcet-text-dark);
+}
+
+.rgcet-faq-item:active {
+    transform: translateY(0);
+    box-shadow: var(--rgcet-shadow-elevation-1);
+    border-color: var(--rgcet-primary-hover);
+}
+
+.rgcet-faq-icon {
+    font-size: 16px;
+    line-height: 1;
+    flex-shrink: 0;
+    opacity: 0.9;
+    margin-top: 1px;
+}
+
+.rgcet-faq-text {
+    line-height: 1.4;
+}
+
+/* Chat Messages */
+.rgcet-msg {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.rgcet-msg-content {
+    max-width: 85%;
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.rgcet-msg-link {
+    color: var(--rgcet-primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    word-break: break-word;
+}
+
+.rgcet-msg-link:hover {
+    color: var(--rgcet-primary-hover);
+}
+
+.rgcet-msg-user {
+    justify-content: flex-end;
+}
+
+.rgcet-msg-user .rgcet-msg-content {
+    background-color: var(--rgcet-primary);
+    color: #ffffff;
+    border-radius: var(--rgcet-radius-lg) var(--rgcet-radius-lg) 4px var(--rgcet-radius-lg);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* very soft depth */
+}
+
+.rgcet-msg-bot {
+    justify-content: flex-start;
+}
+
+.rgcet-msg-bot .rgcet-msg-content {
+    background-color: var(--rgcet-bg-neutral);
+    color: var(--rgcet-text-regular);
+    border-radius: var(--rgcet-radius-lg) var(--rgcet-radius-lg) var(--rgcet-radius-lg) 4px;
+    border: 1px solid rgba(0, 0, 0, 0.03); /* almost invisible border to define edge */
+}
+
+/* Fallback / Error Message Style */
+.rgcet-msg-bot.rgcet-fallback .rgcet-msg-content {
+    background-color: #fefce8; /* Very soft yellow background */
+    border: 1px solid #fef08a;
+    border-left: 4px solid #eab308; /* Yellow/Amber accent */
+    color: #854d0e; /* Darker readable tone */
+    font-style: auto; /* Removed italic per premium guidelines, just use cleaner color */
+}
+
+/* Typing Indicator */
+.rgcet-typing-indicator {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 20px;
+    padding: 0 2px;
+}
+
+.rgcet-typing-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #a3a3a3;
+    border-radius: 50%;
+    animation: rgcetBlink 1.4s infinite both;
+}
+
+.rgcet-typing-dot:nth-child(1) { animation-delay: 0s; }
+.rgcet-typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.rgcet-typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes rgcetBlink {
+    0%, 80%, 100% { opacity: 0.4; transform: scale(0.8); }
+    40% { opacity: 1; transform: scale(1.1); }
+}
+
+/* Input Area */
+.rgcet-input-area {
+    padding: 16px 20px 24px 20px; /* deeper bottom padding for balanced look */
+    background-color: var(--rgcet-bg-pure-white);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.rgcet-input-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    height: 1px;
+    background-color: var(--rgcet-border-light);
+}
+
+#rgcet-input {
+    flex-grow: 1;
+    border: 1px solid var(--rgcet-border-medium);
+    background-color: var(--rgcet-bg-neutral);
+    padding: 14px 20px;
+    border-radius: var(--rgcet-radius-pill);
+    font-size: 14px;
+    color: var(--rgcet-text-dark);
+    font-family: inherit;
+    transition: all 0.2s ease;
+}
+
+#rgcet-input::placeholder {
+    color: #9ca3af;
+}
+
+#rgcet-input:focus {
+    outline: none;
+    border-color: var(--rgcet-primary);
+    background-color: var(--rgcet-bg-pure-white);
+    box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.1); /* Subtle focus ring */
+}
+
+.rgcet-input-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rgcet-control-btn {
+    background-color: var(--rgcet-bg-pure-white);
+    border: 1px solid var(--rgcet-border-light);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--rgcet-text-light);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: var(--rgcet-shadow-btn);
+}
+
+.rgcet-control-btn:hover {
+    color: var(--rgcet-primary);
+    border-color: var(--rgcet-primary);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.rgcet-send-btn {
+    background-color: var(--rgcet-primary);
+    color: #fff;
+    border: none;
+}
+
+.rgcet-send-btn:hover {
+    background-color: var(--rgcet-primary-hover);
+    color: #fff;
+    border-color: transparent;
+}
+
+.rgcet-send-btn:disabled {
+    background-color: #d1d5db;
+    box-shadow: none;
+    color: #ffffff;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Responsive behavior */
+@media (max-width: 480px) {
+    .rgcet-panel {
+        width: 100%;
+        height: 100%;
+        max-height: 100vh;
+        bottom: 0;
+        right: 0;
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+    }
+    
+    .rgcet-launcher {
+        bottom: 16px;
+        right: 16px;
+    }
+    
+    .rgcet-faq-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .rgcet-header {
+        padding: 20px 20px 16px 20px;
+    }
+    
+    .rgcet-messages {
+        padding: 20px;
+    }
+    
+    .rgcet-input-area {
+        padding: 16px 20px 20px 20px;
+    }
+}

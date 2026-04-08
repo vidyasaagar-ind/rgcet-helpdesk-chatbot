@@ -1,0 +1,14 @@
+{
+  "id": "src_admission_inquiry_form",
+  "source_ref": "src_admission_inquiry_form",
+  "source_url": "https://docs.google.com/forms/d/1Xfc6VzBsJ7fwm6P7Sj_4hjxJzbLA7M_fP8yjYC5NFXI/viewform?edit_requested=true",
+  "raw_local_path": "backend/data/raw/website/admission_inquiry_form.txt",
+  "source_type": "form",
+  "title": "Admission Inquiry Form",
+  "category": "admissions",
+  "department": "admin",
+  "cleaned_text": "Title: Admission Inquiry Form\nSource URL: https://docs.google.com/forms/d/1Xfc6VzBsJ7fwm6P7Sj_4hjxJzbLA7M_fP8yjYC5NFXI/viewform?edit_requested=true\n\nOfficial Google Form title:\n- Admission Inquiry Form\n\nUse this official form link for admission inquiries submitted through the RGCET workflow.",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Google Form title captured; use official link for inquiry submission."
+}

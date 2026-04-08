@@ -1,0 +1,14 @@
+{
+  "id": "src_admission_contact",
+  "source_ref": "src_admission_contact",
+  "source_url": "https://www.rgcet.edu.in/pages-admissioncontact.php",
+  "raw_local_path": "backend/data/raw/website/admission_contact.txt",
+  "source_type": "website",
+  "title": "Admission Contact",
+  "category": "admissions",
+  "department": "admin",
+  "cleaned_text": "Title: Admission Contact\nSource URL: https://www.rgcet.edu.in/pages-admissioncontact.php\n\nAdmission contact shown on the page:\n- Dr. K. Ayyappan\n- Vice Principal\n- Contact No.: +91 - 93454 66411, +91 95007 72277\n\nGeneral college contact repeated on the page:\n- Telephone: (0413) 2615 308, 309\n- Email: info@rgcetpdy.ac.in\n- Website: www.rgcet.edu.in\n- Address: Pondy - Cuddalore Main Road, Kirumampakkam, Pondicherry-607 403, India",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Admission contact table extracted from approved source."
+}

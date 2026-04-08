@@ -1,0 +1,14 @@
+{
+  "id": "src_dept_bme_gallery",
+  "source_ref": "src_dept_bme_gallery",
+  "source_url": "https://rgcet.edu.in/bme_department/bmegallery.php",
+  "raw_local_path": "backend/data/raw/website/department_bme_gallery.txt",
+  "source_type": "website",
+  "title": "Department of Biomedical Engineering Gallery",
+  "category": "departments",
+  "department": "bme",
+  "cleaned_text": "Title: Department of Biomedical Engineering Gallery\nSource URL: https://rgcet.edu.in/bme_department/bmegallery.php\n\nThe approved department page is a gallery page.\n\nNotable gallery items shown on the page:\n- Workshop on Medical Equipment Management\n- Workshop on Basic Electronics – Maintenance and Service\n- Workshop on the role of Biomedical Engineers in Health Care Industry\n- Technical Lecture on Biomechanics\n- National Level Technical Symposium CHIMERA-2k20\n- In-Plant Training at Mahatma Gandhi Medical College and Research Institute\n\nShared contact details shown in the page footer:\n- Phone: 0413 2615 308, 309\n- Email: Info@rgcet.edu.in\n- Address: Puducherry - 607 403\n\nNote:\n- The approved gallery page does not publish a confirmed HOD name in the extracted content.",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Gallery page only; no confirmed HOD details extracted."
+}

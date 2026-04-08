@@ -1,0 +1,14 @@
+{
+  "id": "src_higher_studies_page",
+  "source_ref": "src_higher_studies_page",
+  "source_url": "https://www.rgcet.edu.in/hs.php",
+  "raw_local_path": "backend/data/raw/website/higher_studies_records.txt",
+  "source_type": "website",
+  "title": "Higher Studies Record Page",
+  "category": "placement",
+  "department": "placement",
+  "cleaned_text": "Title: Higher Studies Record Page\nSource URL: https://www.rgcet.edu.in/hs.php\n\nOfficial page summary:\n- Higher studies list yearwise for last five years\n- Higher studies certificate yearwise links are shown on the page\n- Years shown on the page: 2018-19, 2019-20, 2020-21, 2021-22, 2022-23, 2023-24\n\nThe page provides download links for higher studies records by year.",
+  "trust_priority": "priority_2",
+  "reviewed": true,
+  "notes": "Official higher studies record page summarized conservatively."
+}

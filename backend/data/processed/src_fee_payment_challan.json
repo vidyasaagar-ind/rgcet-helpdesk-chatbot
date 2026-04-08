@@ -1,0 +1,14 @@
+{
+  "id": "src_fee_payment_challan",
+  "source_ref": "src_fee_payment_challan",
+  "source_url": "https://www.rgcet.edu.in/RGCET_%20Challan_format.pdf",
+  "raw_local_path": "backend/data/raw/pdf/fee_payment_challan.pdf",
+  "source_type": "pdf",
+  "title": "Fee Payment Challan",
+  "category": "fees_forms",
+  "department": "accounts",
+  "cleaned_text": "RAJIV GANDHI COLLEGE OF ENGNEERING AND TECHNOLOGY \nKirumampakkam, Puducherry-607 403 \n \nFEE PAYMENT CHALLAN \n \n \nBank Name: INDIAN BANK Account No.:513230986 \nIFSC CODE : IDIB000P042 (In IFSC CODE ‘0’ means Zero (Numeral) \n \nName \n(Capital Letters) \n \nRegistration Number \nDegree B.Tech. / M.Tech. / MBA / MCA \nBranch AI&ML / AI&DS / BME / CSE / EEE / ECE / IT / MBA / MCA / WC \nYear & Semester Y1/Y2/Y3/Y4 S1/S2/S3/S4/S5/S6/S7/S8 \nQuota CENTAC MANAGEMENT \nMode of Fee Payment \n(Please tick your choice) \n \n \nCASH DD UPI \n \n \n \n \n \nDenominations Amount P \n500× \n200× \n100× \n50× \n20× \n10× \nTotal R. \n \n \n \n \n \n \n \n \n \n \n \n \nAmount (In words): ___________________________________________________________________ \n \nSignature of Depositor: _______________________ \nDate: ________________ \n \n \nHOD Authorized Signatory \nDD/UPI No.: \nDD/UPI Date: \nBank Name: \nBranch: \nAmount: \nSCAN ME",
+  "trust_priority": "priority_3",
+  "reviewed": true,
+  "notes": "PDF text extracted; official challan download should be preferred for user guidance."
+}

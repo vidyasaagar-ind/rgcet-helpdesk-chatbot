@@ -1,0 +1,13 @@
+﻿backend/.env
+backend/venv/
+backend/data/vector_store/
+backend/data/vector_store/**
+*.sqlite3
+__pycache__/
+*.log
+*.err.log
+out*.txt
+node_modules/
+
+# Additional local environment safety
+.venv/
